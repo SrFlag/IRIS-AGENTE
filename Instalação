@@ -1,0 +1,11 @@
+# 1. Crie a pasta e entre nela
+mkdir IRIS_Projeto
+cd IRIS_Projeto
+
+# 2. Crie o ambiente virtual
+python -m venv venv
+
+# 3. Ative o ambiente virtual
+.\venv\Scripts\activate
+
+pip install tensorflow==2.15.0 opencv-python==4.9.0.80 deepface plyer pycaw tf-keras protobuf==4.25.3 numpy==1.26.4
